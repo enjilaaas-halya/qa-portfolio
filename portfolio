@@ -1,0 +1,132 @@
+git clone https://github.com/ enjilaaas-halya /qa-portfolio.git
+cd qa-portfolio
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>QA Portfolio - Halya Artysh</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #222;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+    nav {
+      margin-top: 10px;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    h2 {
+      border-bottom: 2px solid #ddd;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+      color: #444;
+    }
+    ul {
+      list-style: disc;
+      padding-left: 20px;
+    }
+    .links a {
+      display: block;
+      margin-bottom: 10px;
+      color: #0066cc;
+      text-decoration: none;
+    }
+    .links a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #222;
+      color: #fff;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Halya Artysh - QA Portfolio</h1>
+    <nav>
+      <a href="#about">About Me</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Test Artifacts</a>
+      <a href="#contact">Contacts</a>
+    </nav>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      I am an aspiring QA Engineer with practical experience in creating test cases, bug reports, checklists, and working with tools such as Postman, Git, and SQL. Passionate about improving product quality and continuously developing my technical skills.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>Test design techniques (equivalence partitioning, boundary values, etc.)</li>
+      <li>Writing test cases, checklists, and bug reports</li>
+      <li>Manual testing of web and mobile applications</li>
+      <li>API testing with Postman</li>
+      <li>Basic SQL queries</li>
+      <li>Version control with Git & GitHub</li>
+      <li>Understanding of SDLC and STLC</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Test Artifacts</h2>
+    <div class="links">
+      <a href="https://docs.google.com/spreadsheets/d/1sF9oOz0YOFoKxo-zdxtFfllMWSf1Ta9pVBJXOM0LQJ0/edit?usp=sharing" target="_blank">Checklist Example</a>
+      <a href="https://docs.google.com/spreadsheets/d/18b-Uu2511IDlNtri04GhzUd2AaOGWinMa1GnQVXXSqM/edit?usp=sharing" target="_blank">Test Cases</a>
+      <a href="https://docs.google.com/spreadsheets/d/1sEMMqL6bgDNmKL-_4Ie3N3zaABajakitTOkiEh7Ud8Y/edit?usp=sharing" target="_blank">Bug Reports</a>
+      <a href="https://docs.google.com/spreadsheets/d/1_VAY6XjKke7IaBdYVciSKdwFtoHm9nvDRK7EsyGVESg/edit?usp=sharing" target="_blank">Test Plan</a>
+      <a href="https://docs.google.com/spreadsheets/d/1FCYGQmz7THLSEjrtydWPU3C3MgmI_26k/edit?gid=1384023123#gid=1384023123" target="_blank">Test Results</a>
+      <a href="https://docs.google.com/spreadsheets/d/1uIg4oz8znKv9DQ8hf4B-dVnNC7LtDOUM3srYygxxSCo/edit?usp=sharing" target="_blank">Exploratory Testing</a>
+      <a href="https://docs.google.com/spreadsheets/d/1Yuon9ewSt0AaTqlWMs1mnUGpz4ahs4NXcRWS-apaD0s/edit?usp=sharing" target="_blank">Additional Artifacts</a>
+      <a href="https://docs.google.com/spreadsheets/d/1to5PC_mipFSg_37plygP4YhkPki1rKwf1-ME0WOvQ58/edit" target="_blank">Test Documentation</a>
+      <a href="https://github.com/enjilaaas-halya/HW_10.git" target="_blank">GitHub Project</a>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contacts</h2>
+    <p>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></p>
+    <p>LinkedIn: <a href="#" target="_blank">linkedin.com/in/your-profile</a></p>
+    <p>GitHub: <a href="https://github.com/enjilaaas-halya" target="_blank">github.com/enjilaaas-halya</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Halya Artysh | QA Portfolio</p>
+  </footer>
+</body>
+</html>
+git add .
+git commit -m "Add portfolio site"
+git push origin main
