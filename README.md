@@ -29,7 +29,7 @@ My goal is to deliver high-quality software and continuously improve my QA skill
 - ✅ API Testing Collections  
 - ✅ SQL Queries  
 
-👉 Full Portfolio Website: (https://enjilaaas-halya.github.io/qa-portfolio)  
+👉 Full Portfolio Website: (https://github.com/enjilaaas-halya/qa-portfolio.git)
 
 ---
 
