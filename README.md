@@ -34,7 +34,7 @@ My goal is to deliver high-quality software and continuously improve my QA skill
 ---
 
 ## 📫 Contacts  
-- **Email:** your.email@example.com  
+- **Email:** enjilaaas@gmail.com  
 - **LinkedIn:** (https://linkedin.com/in/halya-artysh)  
 - **GitHub:** (https://github.com/enjilaaas-halya)  
 
